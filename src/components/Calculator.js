@@ -3,6 +3,8 @@ import React, {useState} from "react";
 import { Container } from 'react-bootstrap';
 import { FaGithub } from "react-icons/fa";
 
+// updated
+
 function Calculator() {
 const [calculation, setCalculation]=useState('')
     const [output, setOutput]=useState('')
@@ -47,8 +49,9 @@ const calculate=()=>{
       <Container>
         <div className='calculator-body'>
         <br />
-    <center> <h1 className='h1'>Calculator <a href='https://github.com/eldorcodes/calculator/blob/main/src/App.js'>
+    <center> <h1 className='h1'>Calculator <a href='https://github.com/oyuldash/calculator/blob/main/src/App.js'>
     <FaGithub />
+
         </a></h1> 
     </center>
 
